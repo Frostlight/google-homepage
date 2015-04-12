@@ -1,0 +1,50 @@
+/* Google icon picture */
+#google_icon{
+    height: 180px;
+    width: 320px;
+    margin: 15px;
+}
+
+/* div for containing the search input field */
+#search_input{
+    height: 50px;
+}
+
+/* textfield (search box) */
+input[type="text"]{
+    height: 2em;
+    width: 45em;
+    border: 1px solid #D3D3D3;
+    text-indent: 10px;
+    padding: 0px 20px 0px 0px;
+    background-image: url('../img/mic.png');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+/* "Google Search" and "I'm feeling lucky" buttons */
+input[type="button"]{
+    background-color: #EFEFEF;
+    margin: 0px 5px;
+    padding: 0.6em;
+    font-weight: bold;
+    color: #565656;
+    font-size: 0.78em;
+    border: 1px solid #D7D7D7;
+    border-radius: 2px;
+}
+
+/* Active elemnts for input */
+input:hover{
+    border: 1px solid #999;
+}
+
+input:focus{
+    border: 1px solid #4293DD;
+}
+
+.wrapper{
+    position: relative;
+    top: 150px;
+    text-align: center;
+}
