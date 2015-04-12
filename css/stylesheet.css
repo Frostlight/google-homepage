@@ -1,8 +1,60 @@
+/* ------ HEADER/FOOTER ------ */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 0px 8px;
+}
+
+.top_bar{
+    float: right;
+}
+
+.top_text{
+    top: -10px;
+    position: relative;
+}
+
+a {
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* correctly position image elements at the top */
+/* a crude solution */
+#correction_pic{
+    top: -2px;
+    position: relative;
+}
+
+#correction_profile{
+    top: 5px;
+    left: -5px;
+    position: relative;
+}
+
+/* ------ MIDDLE WRAPPER ------ */
 /* Google icon picture */
 #google_icon{
     height: 180px;
     width: 320px;
     margin: 15px;
+    position: relative;
+    left: 200px;
+}
+
+#search{
+    top: -20px;
+    position: relative;
 }
 
 /* div for containing the search input field */
@@ -34,7 +86,7 @@ input[type="button"]{
     border-radius: 2px;
 }
 
-/* Active elemnts for input */
+/* Active elements for input */
 input:hover{
     border: 1px solid #999;
 }
@@ -48,3 +100,4 @@ input:focus{
     top: 150px;
     text-align: center;
 }
+
