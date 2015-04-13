@@ -10,15 +10,6 @@ li {
     margin: 0px 8px;
 }
 
-.top_bar{
-    float: right;
-}
-
-.top_text{
-    top: -10px;
-    position: relative;
-}
-
 a {
     font-family: arial, sans-serif;
     font-size: 14px;
@@ -27,6 +18,51 @@ a {
 
 a:hover{
     text-decoration: underline;
+}
+
+.top_bar{
+    float: right;
+}
+
+.top_bar a{
+    top: -10px;
+    color: #3F3F3F;
+    position: relative;
+}
+
+.footer_bar{
+    width: 99.9%;
+    height: 45px;
+    background-color: #F6F6F6;
+    border-top: 1px solid #E9E9E9;
+    position: absolute;
+    bottom: 0;
+    left: 1px;
+}
+
+.footer_bar a{
+    position: relative;
+    color: #696969;
+}
+
+#span_left{
+    float:left;
+}
+
+#span_left a{
+    top: 0.85em;
+    margin-left: 1.6em;
+    position: relative;
+}
+
+#span_right {
+    float: right;
+}
+
+#span_right a {
+    top: 0.85em;
+    margin-right: 1.6em;
+    position: relative;
 }
 
 /* correctly position image elements at the top */
@@ -43,8 +79,14 @@ a:hover{
 }
 
 /* ------ MIDDLE WRAPPER ------ */
+.wrapper{
+    position: relative;
+    text-align: center;
+    top: 150px;
+}
+
 /* Google icon picture */
-#google_icon{
+.wrapper img{
     height: 180px;
     width: 320px;
     margin: 15px;
@@ -94,10 +136,3 @@ input:hover{
 input:focus{
     border: 1px solid #4293DD;
 }
-
-.wrapper{
-    position: relative;
-    top: 150px;
-    text-align: center;
-}
-
